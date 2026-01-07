@@ -23,3 +23,4 @@ const testArray = [64, 34, 25, 12, 22, 11, 90];
 console.log("排序前:", testArray);
 const sortedArray = insertionSort([...testArray]);
 console.log("排序后:", sortedArray);
+export { insertionSort };
